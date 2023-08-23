@@ -1,0 +1,26 @@
+#clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #82a5ab;
+  flex-direction: column;
+  height: 95vh;
+}
+#createCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #000;
+  background-color: #00e832;
+  height: 150px;
+  border-radius: 20px;
+  width: 250px;
+}
+.day,
+.time {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 28px;
+  font-weight: 800;
+}
