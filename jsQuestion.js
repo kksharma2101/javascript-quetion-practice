@@ -1,0 +1,311 @@
+// Question - What is prototypes in javascript?
+// Question - What is Memoization?
+// Question - What is Event bubling?
+// Question - What is function curring?
+// Question - What is pure and impure function?
+// Question - What is the shallo and deep copy?
+// Question - What is the closure?
+// Question - What is the API?
+// Question - What is the connection in react?
+// Question - What is the MVC in react?
+// Question - What is the event in react?
+
+
+//shallow copy
+// let obj = {
+//   name: "kamal",
+//   details: { city: "rampur", age: 26 },
+// };
+// // let shallowCopy = { ...obj };
+// let deepCopy = JSON.parse(JSON.stringify(obj));
+// deepCopy.details.city = "shyampur";
+
+// console.log(obj.details.city);
+// console.log(deepCopy.details.city);
+
+
+// let a = 10;
+// let b = a++ + ++a;
+// console.log(b);
+
+// function abc() {
+//   console.log(abc.xyz);
+// }
+// abc();
+// abc.xyz = 400;
+// abc.xyz = 200;
+// abc();
+// console.log(abc())
+// == what is  output
+
+// ==== next ====
+
+// const num = [1,2,3,4];
+// num[100] = 500;
+// console.log(num);
+
+// ==== next ====
+
+// console.log(typeof typeof 100);
+
+// ==== next ====
+
+// const arr = [... 'kamal'];
+// console.log(arr)
+
+// ==== next ====
+
+// console.log(parseInt('10+2'));
+// console.log(parseInt('7FM'));
+// console.log(parseInt('F9M'));
+// console.log(typeof parseInt())
+
+// ==== next ====
+
+// console.log([1,2,3,].map((num) => {
+//     if(num>0) return;
+//     return num * 2;
+// }))
+
+// ==== next ====
+
+// {
+//     function abc() {
+//         console.log('kamal')
+//     }
+// }
+// abc()
+
+// ==== next ====
+
+// function abc(a, b) {
+//   "use strict";
+//   a = 100;
+//   b = 200;
+//   return arguments[0] + arguments[1];
+// console.log(a+b)
+// }
+// console.log(abc(50,30));
+
+// ==== next ====
+
+// const arr = [1,2,3,4,5,6,6,7,7,8,9];
+// const res = arr.map((num) => num > 5)
+// const res = arr.filter((num) => num != 4)
+// console.log(res)
+// arr.splice(2,5)
+// arr.slice(2,4)
+// console.log(arr)
+
+// ==== next ====
+
+// function test() {
+//     // salary = 50000
+//     // console.log(salary)
+//     console.log(test.abc)
+// }
+// test()
+// test.abc = 500
+// test.abc = 1000
+// test()
+
+// console.log({} == {}); => we not compare because object has refenece not a values
+// console.log({} === {});
+
+// ==== next ====
+
+// let a = {
+//     name: "kamal"
+// }
+// let b = {
+//     ...a
+// }
+// b.name = "sharma"
+// console.log(a.name)
+
+// let a = 10;
+// let b = new Number(10);
+// let c = 10;
+
+// console.log(a === b);
+// console.log(b === c);
+
+// ==== next ====
+
+// function test(records) {
+//     if(records == {age: 28}) {
+//         console.log('you are adult')
+//     }else if(records === {age: 28}) {
+//         console.log('you are still adult')
+//     }else {
+//         console.log('No recoreds found')
+//     }
+// }
+// // let records = {age: 28}
+// test({age: 28})
+
+// console.log(+ true) // 1
+// console.log(! 'true')
+
+// ==== next ====
+
+// let a = {};
+// let b = {ram: 'b'};
+// let c = {key: 'c'}
+
+// a[b] = 600; //a['object object']
+// b[c] = 700
+// b[b] = 500
+
+// console.log(a[b]);
+// console.log(a[c]);
+// console.log(b[b]);
+// console.log(b[c]);
+
+// ==== next ====
+
+// let str = "abcdef";
+// let str2 = 123;
+// // output should be = a1b2c3def
+
+// function compare(str, str2) {
+//   let a = str.toString();
+//   let b = str2.toString();
+//   let output = "";
+//   let i = 0;
+//   for (; i < a.length && i < b.length; i++) {
+//     output += a[i] + b[i];
+//   }
+//   //   return output;
+//   console.log(i)
+//   output += a.slice(i);
+//   console.log(output);
+// }
+// // console.log(compare(str, str2));
+// compare(str, str2);
+
+// let st = "abc";
+// let st2 = 123456;
+// // output should be = a1b2c3456
+
+// let res = "";
+// let a = st2.toString();
+// let i = 0;
+// let j = 0;
+// while (i < st.length && j < a.length) {
+//   res += st[i] + a[j];
+//   i++;
+//   j++;
+// }
+// while (j < a.length) {
+//   res += a[j];
+//   j++;
+// }
+// console.log(res);
+
+// function compare(st, st2) {
+//   let a = st2.toString();
+//   let result = "";
+//   let i = 0;
+//   for (; i < st.length && i < a.length; i++) {
+//     result += st[i] + a[i];
+//   }
+//   result += a.slice(i);
+//   //   return result;
+//   console.log(result);
+// }
+// compare(st, st2);
+
+// ==== next ====
+
+// let myPromise = new Promise((resolve, reject) => {
+//   let success = false;
+//   if (success) {
+//     resolve("Operation successfull");
+//   } else {
+//     reject("Operartion failed");
+//   }
+// })
+//   .then((message) => {
+//     console.log("Message: ", message);
+//   })
+//   .catch((err) => {
+//     console.log("Error: ", err);
+//   })
+//   .finally(() => {
+//     console.log("Operation completed");
+//   });
+
+// ==== next ====
+
+// var a = 200;
+// {
+//   var a = 400;
+// }
+// let b = a;
+// {
+//   let b = -400;
+// }
+// console.log(b);
+
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.reduce((pre, curr, index) => pre + curr));
+// console.log(arr.forEach((val, index) => console.log(val, index)));
+
+// ==== next ====
+
+// function func1() {
+//   return 5;
+// }
+// function func2() {
+//   return 8;
+// }
+// let res = (func1(), func2());
+// console.log(res);
+
+// const arr = ["one", "two", "three"];
+// const str = "Hello";
+
+// const res = arr.includes("on");
+// const res1 = arr.includes("onetwo");
+// const res2 = str.includes("ll");
+
+// console.log(res);
+// console.log(res1);
+// console.log(res2);
+// console.log(true == '1')
+
+// ==== next ====
+
+// let a = 21;
+// let b = new Number(21);
+// let c = Number(21);
+// console.log(a === b);
+
+// sum(2, 3);
+// sum((2)(3));
+// function sum(a, b) {
+//   console.log(a);
+//   console.log(b);
+// }
+
+// ==== next ==== Flat() method
+
+// const arr = [
+//   [1, 2],
+//   [3, 4],
+//   [5, 6],
+// ];
+// // const res = arr.flat();
+// function flatArr(val) {
+//   let res = [];
+//   for (let i = 0; i < val.length; i++) {
+//     for (let j = 0; j < val[i].length; j++) {
+//       res.push(val[i][j]);
+//     }
+//   }
+//   return res;
+// }
+// console.log(flatArr(arr));
+
+// ==== next ====
