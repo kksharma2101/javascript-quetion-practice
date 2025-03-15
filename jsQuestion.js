@@ -1,4 +1,4 @@
-// Question - What is prototypes in javascript?
+// Question - What is prototypes in javascript? => 
 // Question - What is Memoization?
 // Question - What is Event bubling?
 // Question - What is function curring?
@@ -9,7 +9,8 @@
 // Question - What is the connection in react?
 // Question - What is the MVC in react?
 // Question - What is the event in react?
-
+// Question - What is the Git?
+// Question - What is the Authentication?
 
 //shallow copy
 // let obj = {
@@ -22,7 +23,6 @@
 
 // console.log(obj.details.city);
 // console.log(deepCopy.details.city);
-
 
 // let a = 10;
 // let b = a++ + ++a;
@@ -309,3 +309,9 @@
 // console.log(flatArr(arr));
 
 // ==== next ====
+// let arr = [1];
+// arr[null] = 10;
+// console.log(arr)
+// console.log(arr.length);
+// arr[100] = 10;
+// console.log(arr.length);
