@@ -1,4 +1,4 @@
-// Question - What is prototypes in javascript? => 
+// Question - What is prototypes in javascript? =>
 // Question - What is Memoization?
 // Question - What is Event bubling?
 // Question - What is function curring?
@@ -92,7 +92,7 @@
 // const arr = [1,2,3,4,5,6,6,7,7,8,9];
 // const res = arr.map((num) => num > 5)
 // const res = arr.filter((num) => num != 4)
-// console.log(res)
+// console.log(res) // there is the used comparision operators
 // arr.splice(2,5)
 // arr.slice(2,4)
 // console.log(arr)
@@ -167,6 +167,18 @@
 // let str = "abcdef";
 // let str2 = 123;
 // // output should be = a1b2c3def
+// let j = 0;
+// let i = 0;
+// let res = "";
+// while (i < str.length) {
+//   res += str[i];
+//   if (j < String(str2).length) {
+//     res += String(str2)[j];
+//     j++;
+//   }
+//   i++;
+// }
+// console.log(res);
 
 // function compare(str, str2) {
 //   let a = str.toString();
@@ -296,7 +308,9 @@
 //   [3, 4],
 //   [5, 6],
 // ];
-// // const res = arr.flat();
+// output should be = [1,2,3,4,5,6]
+
+// const res = arr.flat();
 // function flatArr(val) {
 //   let res = [];
 //   for (let i = 0; i < val.length; i++) {
