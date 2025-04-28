@@ -1,9 +1,21 @@
-// Question - What is prototypes in javascript? =>
+// Question - What is prototypes in javascript?
+// Ans. javascript prototypes is a fundamental concept that enables inheritance is an prototype is a bluprint or a parent object to another object can inherit properties or methods.
+
 // Question - What is Memoization?
+// Ans. memoization is the optimized technique is used in programing to speed up execution of a function calculations.
+
 // Question - What is Event bubling?
+// Ans.
+
 // Question - What is function curring?
+// sequence of a functions
+
 // Question - What is pure and impure function?
+// pure function is the that function its output will be same if we call multiple time, and impure is work differently give the output different.
+
 // Question - What is the shallo and deep copy?
+// A shallow copy creates a new object or array, A deep copy creates a completely independent copy
+
 // Question - What is the closure?
 // Question - What is the API?
 // Question - What is the connection in react?
@@ -11,6 +23,18 @@
 // Question - What is the event in react?
 // Question - What is the Git?
 // Question - What is the Authentication?
+// Question - What is polyfill?
+// Question - What is limitations (disadvantage) of react.js?
+// Question - What is useMemo and useCallback?
+// Question - What is callback function and rest parameters?
+// function isCallbackFn(callbackFn, ...a) {
+//   console.log(a);
+//   callbackFn();
+// }
+// function callbackFn() {
+//   console.log("Hello callback function");
+// }
+// isCallbackFn(callbackFn, "myFunc", "is", "not", "callback", "function");
 
 //shallow copy
 // let obj = {
@@ -329,3 +353,38 @@
 // console.log(arr.length);
 // arr[100] = 10;
 // console.log(arr.length);
+
+// ==== next ====
+// let str = "there is kamal";
+// // output:
+// // there
+// // is
+// // kamal
+// function splitAndPrint(str) {
+//   const words = str.split(" ");
+//   console.log(words);
+//   words.forEach((word) => {
+//     console.log(word);
+//   });
+//   // 2nd way
+//   //   let currentStr = "";
+//   //   for (let i = 0; i < str.length; i++) {
+//   //     if (str[i] == " ") {
+//   //       console.log(currentStr);
+//   //       currentStr = "";
+//   //     }
+//   //     currentStr += str[i];
+//   //   }
+//   //   console.log(currentStr);
+// }
+
+// splitAndPrint(str);
+
+// ==== next ====
+// Array destructuring
+// let [a, b] = [1, 2, 3, 4, 5];
+// console.log(a, b);
+
+// console.log(0/0)
+// let k = 1 * undefined;
+// console.log(k);
