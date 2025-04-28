@@ -24,6 +24,7 @@
 // Question - What is the Git?
 // Question - What is the Authentication?
 // Question - What is polyfill?
+// Question - What is difference between bold tag and strong tag in html?
 // Question - What is limitations (disadvantage) of react.js?
 // Question - What is useMemo and useCallback?
 // Question - What is callback function and rest parameters?
