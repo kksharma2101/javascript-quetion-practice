@@ -389,3 +389,60 @@
 // console.log(0/0)
 // let k = 1 * undefined;
 // console.log(k);
+
+// ==== 🧠 Additional Questions Asked ====
+
+// 🔹 Explain how JavaScript handles the event loop and microtask queue
+// 🔹 What's the difference between == and ===?
+// 🔹 How do you handle immutability in JavaScript (especially with objects and arrays)?
+// 🔹 How to deep clone an object in JavaScript?
+// 🔹 Explain hoisting with an example.
+// 🔹 What is event bubbling and capturing in the DOM?
+// 🔹 What are arrow functions and how do they handle this?
+
+// 1️⃣ Difference between forEach() and map() in JavaScript
+//  → map() returns a new array, forEach() doesn’t. map() is often used for transformations, while forEach() is used for iteration without returning anything.
+
+// 2️⃣ Count the Occurrences of Each Element in an Array
+// let Input = ["a", "b", "a", "c", "b", "a"];
+// Output: { a: 3, b: 2, c: 1 }
+// function occurrences(data) {
+//   let result = {};
+//   for (const element of data) {
+//     result[element] = (result[element] || 0) + 1;
+//   }
+//   console.log(result);
+// }
+// occurrences(Input);
+
+// 3️⃣ Output-Based Question
+// setTimeout(() => console.log('1'), 0);
+// Promise.resolve().then(() => console.log('2'));
+// console.log('3');
+
+// // Output: 3 2 1
+
+// 4️⃣ Debounce Function in JavaScript
+// Implement a debounce that delays execution until 2000ms after the last function call.
+
+// 5️⃣ Flatten a Deeply Nested Array
+// Input: [1, [2, [3, [4]]]]
+// Output: [1, 2, 3, 4]
+
+// 6️⃣ Promise Execution Order
+// console.log('Start');
+
+// setTimeout(() => {
+//  console.log('Timeout');
+// }, 0);
+
+// Promise.resolve().then(() => {
+//  console.log('Promise');
+// });
+
+// console.log('End');
+
+// // Output: Start → End → Promise → Timeout
+
+// 7️⃣ typeof null
+// console.log(typeof null); // Output: 'object'
