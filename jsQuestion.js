@@ -446,3 +446,32 @@
 
 // 7️⃣ typeof null
 // console.log(typeof null); // Output: 'object'
+
+// ====== Next =======
+// console.log("K" - 1);
+// console.log("Kamal" + "100");
+// console.log("2" + 2 + "2"); //When the + operator is used with a string and any other data type, JavaScript treats it as a string concatenation operator.
+// console.log("2" + 2 - "1");
+
+// ====== Next =======
+// const a = {};
+// const b = { name: "kamal" };
+// const c = { name: "ram" };
+
+// a[b] = { name: "shyam" };
+// a[c] = { name: "radha" };
+
+// console.log(a[b]);
+
+// const x = 0;
+// const y = false;
+
+// console.log(x == y);
+// console.log(x === y);
+
+// console.log(NaN == NaN);
+// console.log(NaN === NaN);
+
+// const arr = [100, 50, 200, 150];
+// arr.sort();
+// console.log(arr);
