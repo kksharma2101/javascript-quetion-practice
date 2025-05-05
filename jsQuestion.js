@@ -472,6 +472,37 @@
 // console.log(NaN == NaN);
 // console.log(NaN === NaN);
 
-// const arr = [100, 50, 200, 150];
-// arr.sort();
+// let arr = [100, 50, 200, 150];
+// console.log(arr.sort((a, b) => a - b));
+// console.log(arr.slice(1, 3));
+// console.log(arr.splice(1, 0, 89));
+// console.log(arr)
+// arr.unshift(102);
+// arr.shift();
 // console.log(arr);
+
+// ====== Next =======
+// let a = 10;
+//     let b = a++ + ++a;
+//     console.log(b);
+
+// function curry(a) {
+//   return function curry1(b) {
+//     return function curry2(c) {
+//       return a + b + c;
+//     };
+//   };
+// }
+// // console.log(curry(1)(2)(3))
+// function infiniteCurry(a) {
+//   let sum = a;
+//   return function inner(b) {
+//     if (b !== undefined) {
+//       sum += b;
+//       return inner;
+//     } else {
+//       return sum;
+//     }
+//   };
+// }
+// console.log(infiniteCurry(1)(2)(3)(4)());
