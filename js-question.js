@@ -11,22 +11,75 @@
 // sequence of a functions
 
 // Question - What is pure and impure function?
-// pure function is the that function its output will be same if we call multiple time, and impure is work differently give the output different.
+//Ans. = pure function is the that function its output will be same if we call multiple time, and impure is work differently give the output different.
+// function pure(a, b) {
+//   console.log(a + b);
+// }
+// pure(20, 10);
+// let total = 0;
+// function impure(val) {
+//   total += val;
+//   return total;
+// }
+// console.log(impure(10));
+// console.log(impure(10));
 
 // Question - What is the shallo and deep copy?
-// A shallow copy creates a new object or array, A deep copy creates a completely independent copy
+//Ans. = A shallow copy creates a new object or array, A deep copy creates a completely independent copy
+// shallow copy
+// let obj = {
+//   name: "kamal",
+//   details: { city: "rampur", age: 26 },
+// };
+// let shallowCopy = { ...obj };
+// shallowCopy.details.age = 40;
+// shallowCopy.details.city = "shyampur";
+// let deepCopy = JSON.parse(JSON.stringify(obj));
+// deepCopy.details.city = "shyampur";
+
+// console.log(obj.details.city);
+// // console.log(shallowCopy)
+// console.log(deepCopy.details.city);
 
 // Question - What is the closure?
+// Ans. = A closure is the combination of a function bundled together with references to its surrounding state and gives a function access to its outer scope.
+// function mainFunc() {
+//   let name = "kamal";
+//   function innerFunc() {
+//     console.log(name);
+//   }
+//   innerFunc();
+// }
+// mainFunc();
+
 // Question - What is the API?
+// Ans. = API as a menu or a set of rules and instructions that allows different software applications to communicate and interact with each other.
+
 // Question - What is the connection in react?
+// Ans. = connection is react its way connect react to backend.
+
 // Question - What is the MVC in react?
+// Ans. = MVC stands for Model-View-Controller, a classic architectural pattern that separates an application into three interconnected components.
+
 // Question - What is the event in react?
+// Ans. = In React, an event is an action that happens in the system or an interaction from the user that your application can respond to.
+
 // Question - What is the Git?
+// Ans. = Git is a free and open-source distributed version control system and  powerful tool that helps individuals and teams track changes to files over time, coordinate work, and collaborate on software development projects.
+
 // Question - What is the Authentication?
+// Ans. = Authentication is the process of verifying the identity of a user, system, or entity trying to access a resource or system.
+
 // Question - What is polyfill?
-// Question - What is difference between bold tag and strong tag in html?
+// Ans. = Polyfill is the peice of code its checked browser is old version and new something like.
+
 // Question - What is limitations (disadvantage) of react.js?
+// Ans. =
 // Question - What is useMemo and useCallback?
+// Ans. = They are primarily used for performance optimization by helping you memoize values and functions, respectively, to prevent unnecessary re-renders of components.
+
+// Question - What is difference between event bubling and event capturing.
+
 // Question - What is callback function and rest parameters?
 // function isCallbackFn(callbackFn, ...a) {
 //   console.log(a);
@@ -37,20 +90,10 @@
 // }
 // isCallbackFn(callbackFn, "myFunc", "is", "not", "callback", "function");
 
-//shallow copy
-// let obj = {
-//   name: "kamal",
-//   details: { city: "rampur", age: 26 },
-// };
-// // let shallowCopy = { ...obj };
-// let deepCopy = JSON.parse(JSON.stringify(obj));
-// deepCopy.details.city = "shyampur";
-
-// console.log(obj.details.city);
-// console.log(deepCopy.details.city);
+//// ====== 🚀 NEXT 🚀 =======
 
 // let a = 10;
-// let b = a++ + ++a;
+// let b = a++ + ++a; // 10 + 12 =
 // console.log(b);
 
 // function abc() {
@@ -63,36 +106,36 @@
 // console.log(abc())
 // == what is  output
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // const num = [1,2,3,4];
 // num[100] = 500;
 // console.log(num);
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // console.log(typeof typeof 100);
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // const arr = [... 'kamal'];
 // console.log(arr)
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // console.log(parseInt('10+2'));
 // console.log(parseInt('7FM'));
 // console.log(parseInt('F9M'));
 // console.log(typeof parseInt())
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // console.log([1,2,3,].map((num) => {
 //     if(num>0) return;
 //     return num * 2;
 // }))
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // {
 //     function abc() {
@@ -101,7 +144,7 @@
 // }
 // abc()
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // function abc(a, b) {
 //   "use strict";
@@ -112,7 +155,7 @@
 // }
 // console.log(abc(50,30));
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // const arr = [1,2,3,4,5,6,6,7,7,8,9];
 // const res = arr.map((num) => num > 5)
@@ -122,7 +165,7 @@
 // arr.slice(2,4)
 // console.log(arr)
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // function test() {
 //     // salary = 50000
@@ -137,7 +180,7 @@
 // console.log({} == {}); => we not compare because object has refenece not a values
 // console.log({} === {});
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // let a = {
 //     name: "kamal"
@@ -155,7 +198,7 @@
 // console.log(a === b);
 // console.log(b === c);
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // function test(records) {
 //     if(records == {age: 28}) {
@@ -172,7 +215,7 @@
 // console.log(+ true) // 1
 // console.log(! 'true')
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // let a = {};
 // let b = {ram: 'b'};
@@ -187,7 +230,7 @@
 // console.log(b[b]);
 // console.log(b[c]);
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // let str = "abcdef";
 // let str2 = 123;
@@ -253,7 +296,7 @@
 // }
 // compare(st, st2);
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // let myPromise = new Promise((resolve, reject) => {
 //   let success = false;
@@ -273,7 +316,7 @@
 //     console.log("Operation completed");
 //   });
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // var a = 200;
 // {
@@ -289,7 +332,7 @@
 // console.log(arr.reduce((pre, curr, index) => pre + curr));
 // console.log(arr.forEach((val, index) => console.log(val, index)));
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // function func1() {
 //   return 5;
@@ -312,7 +355,7 @@
 // console.log(res2);
 // console.log(true == '1')
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
 
 // let a = 21;
 // let b = new Number(21);
@@ -326,7 +369,9 @@
 //   console.log(b);
 // }
 
-// ==== next ==== Flat() method
+// ====== 🚀 NEXT 🚀 =======
+
+// Flat() method
 
 // const arr = [
 //   [1, 2],
@@ -347,7 +392,8 @@
 // }
 // console.log(flatArr(arr));
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
+
 // let arr = [1];
 // arr[null] = 10;
 // console.log(arr)
@@ -355,7 +401,8 @@
 // arr[100] = 10;
 // console.log(arr.length);
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
+
 // let str = "there is kamal";
 // // output:
 // // there
@@ -381,7 +428,8 @@
 
 // splitAndPrint(str);
 
-// ==== next ====
+// ====== 🚀 NEXT 🚀 =======
+
 // Array destructuring
 // let [a, b] = [1, 2, 3, 4, 5];
 // console.log(a, b);
@@ -447,13 +495,15 @@
 // 7️⃣ typeof null
 // console.log(typeof null); // Output: 'object'
 
-// ====== Next =======
+// ====== 🚀 NEXT 🚀 =======
+
 // console.log("K" - 1);
 // console.log("Kamal" + "100");
 // console.log("2" + 2 + "2"); //When the + operator is used with a string and any other data type, JavaScript treats it as a string concatenation operator.
 // console.log("2" + 2 - "1");
 
-// ====== Next =======
+// ====== 🚀 NEXT 🚀 =======
+
 // const a = {};
 // const b = { name: "kamal" };
 // const c = { name: "ram" };
@@ -481,7 +531,8 @@
 // arr.shift();
 // console.log(arr);
 
-// ====== Next =======
+// ====== 🚀 NEXT 🚀 =======
+
 // let a = 10;
 //     let b = a++ + ++a;
 //     console.log(b);
@@ -507,7 +558,7 @@
 // }
 // console.log(infiniteCurry(1)(2)(3)(4)());
 
-// ====== Next =======
+// ====== 🚀 NEXT 🚀 =======
 
 // function factorial(n) {
 //     if (n === 0) {
@@ -551,4 +602,30 @@
 // console.log(obj)
 // console.log(objSpred)
 
-// ====== Next =======
+// ====== 🚀 NEXT 🚀 =======
+
+// console.log(x);
+// console.log(abc);
+// var x = 100;
+// function abc(xyz) {
+//   return xyz + xyz;
+// }
+// output =
+
+// find duplicate and output should be: 10, 100
+// let arr = [10, 40, 20, 10, 100, 50, 80, 100, 30];
+
+// let seen = new Set();
+// let duplicate = new Set();
+
+// for (let item of arr) {
+//   if (seen.has(item)) {
+//     duplicate.add(item);
+//   } else {
+//     seen.add(item);
+//   }
+// }
+// console.log(duplicate);
+//A Set in JavaScript is a built-in object that lets you store unique values of any type — whether primitive values or object references.
+
+// ====== 🚀 NEXT 🚀 =======
