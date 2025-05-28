@@ -73,12 +73,26 @@
 // Question - What is polyfill?
 // Ans. = Polyfill is the peice of code its checked browser is old version and new something like.
 
+// ➡️ What is Reconciliation and Diffing Algorithm.
+// Ans. = Reconciliation is React's process of comparing the current (new) Virtual DOM tree with the previous Virtual DOM tree and then determining the most efficient way to update the Real DOM. When you update a component's state or props, React doesn't immediately touch the browser's DOM. Instead, it initiates this reconciliation process.
+// The diffing algorithm is the set of heuristics (rules of thumb) that React uses to quickly compare two Virtual DOM trees and find the differences. It's designed to be fast, often achieving O(n) time complexity (linear time), where 'n' is the number of elements in the tree. This is significantly faster than a naive O(n^3) comparison, which would be too slow for practical applications.
+
 // Question - What is limitations (disadvantage) of react.js?
 // Ans. =
 // Question - What is useMemo and useCallback?
 // Ans. = They are primarily used for performance optimization by helping you memoize values and functions, respectively, to prevent unnecessary re-renders of components.
 
 // Question - What is difference between event bubling and event capturing.
+// Question - How to optimized react application.
+
+// Question - What is Polyfil.
+// Ans. = In web development, a polyfill is a piece of code (most commonly JavaScript) that provides modern functionality to older web browsers or environments that do not natively support that functionality
+
+// Question - What is First Class function.
+// Ans. = A programming language is said to have First-class functions when functions in that language are treated like any other variable. For example, in such a language, a function can be passed as an argument to other functions, can be returned by another function and can be assigned as a value to a variable.
+
+// Question - What is function currying.
+// Ans. = "Currying" is a functional programming technique that transforms a function that takes multiple arguments into a sequence of functions, each taking a single argument.
 
 // Question - What is callback function and rest parameters?
 // function isCallbackFn(callbackFn, ...a) {
@@ -445,7 +459,12 @@
 // 🔹 How do you handle immutability in JavaScript (especially with objects and arrays)?
 // 🔹 How to deep clone an object in JavaScript?
 // 🔹 Explain hoisting with an example.
+
 // 🔹 What is event bubbling and capturing in the DOM?
+// Ans. =  event bubbling and event capturing are the two phases that describe how an event propagates through the DOM tree when it's triggered on an element.
+// Event Bubbling = Direction: From the target element upwards to the root of the DOM
+// Event Capturing = Direction: From the root of the DOM downwards to the target element
+
 // 🔹 What are arrow functions and how do they handle this?
 
 // 1️⃣ Difference between forEach() and map() in JavaScript
@@ -628,4 +647,18 @@
 // console.log(duplicate);
 //A Set in JavaScript is a built-in object that lets you store unique values of any type — whether primitive values or object references.
 
+// what is outpu =
+// function check() {
+//   return 50;
+// }
+// var check;
+// console.log(check);
+
 // ====== 🚀 NEXT 🚀 =======
+
+// console.log(
+//   [1, 2, 3, 4, 5].map((e) => {
+//     if (e > 0) return;
+//     return e * 10;
+//   })
+// );
