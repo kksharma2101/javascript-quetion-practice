@@ -13,6 +13,18 @@
  // - What is the difference between monolithic and microservices architectures?
  // - How does NodeJS handle memory management?
 
+// 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀 𝗮𝗻𝗱 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻
+ // - What is the difference between SQL and NoSQL databases?
+ // - How does indexing work in databases?
+ // - What are ACID properties in a database?
+ // - How would you scale an API to handle millions of requests per second?
+ // - Design elevator system
+ // - Design a parking lot
+ // - What is caching, and how does it improve performance?
+ // - Design a rate limiter
+ // - Design a logging system
+ // - Design a pastebin/ code sharing app
+
 // Question - What is Event bubling?
 // Ans.
 
