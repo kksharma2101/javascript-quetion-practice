@@ -4,6 +4,15 @@
 // Question - What is Memoization?
 // Ans. memoization is the optimized technique is used in programing to speed up execution of a function calculations.
 
+// 𝗡𝗼𝗱𝗲𝗝𝗦 𝗮𝗻𝗱 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
+ // - What is event-driven architecture in NodeJS?
+ // - How does NodeJS handle asynchronous operations?
+ // - What are middleware functions in ExpressJS?
+ // - How does authentication work in NodeJS? Explain JWT vs. OAuth.
+ // - What are WebSockets, and when would you use them?
+ // - What is the difference between monolithic and microservices architectures?
+ // - How does NodeJS handle memory management?
+
 // Question - What is Event bubling?
 // Ans.
 
