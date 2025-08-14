@@ -3,12 +3,25 @@
 
 // Question - What is Memoization?
 // Ans. memoization is the optimized technique is used in programing to speed up execution of a function calculations.
+// Memoization in Javascript: In JavaScript, the concept of memorization is based mostly on two ideas. They are as follows:
+
+// Closures
+// Higher-Order Functions
+
 
 // Question - What is Event bubling?
-// Ans.
+// Ans. Event bubbling is a mechanism in JavaScript where an event triggered on a child element propagates upward through its parent elements in the DOM hierarchy. 
 
 // Question - What is function curring?
 // sequence of a functions
+// function add(a) {
+//     return function(b) {
+//         return a + b;
+//     }
+// }
+
+// const addTwo = add(5);  // First function call with 5
+// console.log(addTwo(4));
 
 // Question - What is pure and impure function?
 //Ans. = pure function is the that function its output will be same if we call multiple time, and impure is work differently give the output different.
