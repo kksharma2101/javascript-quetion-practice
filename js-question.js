@@ -9,6 +9,27 @@
 // Higher-Order Functions
 
 
+// 𝗡𝗼𝗱𝗲𝗝𝗦 𝗮𝗻𝗱 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
+ // - What is event-driven architecture in NodeJS?
+ // - How does NodeJS handle asynchronous operations?
+ // - What are middleware functions in ExpressJS?
+ // - How does authentication work in NodeJS? Explain JWT vs. OAuth.
+ // - What are WebSockets, and when would you use them?
+ // - What is the difference between monolithic and microservices architectures?
+ // - How does NodeJS handle memory management?
+
+// 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀 𝗮𝗻𝗱 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻
+ // - What is the difference between SQL and NoSQL databases?
+ // - How does indexing work in databases?
+ // - What are ACID properties in a database?
+ // - How would you scale an API to handle millions of requests per second?
+ // - Design elevator system
+ // - Design a parking lot
+ // - What is caching, and how does it improve performance?
+ // - Design a rate limiter
+ // - Design a logging system
+ // - Design a pastebin/ code sharing app
+
 // Question - What is Event bubling?
 // Ans. Event bubbling is a mechanism in JavaScript where an event triggered on a child element propagates upward through its parent elements in the DOM hierarchy. 
 
