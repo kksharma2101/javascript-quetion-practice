@@ -1,3 +1,4 @@
+// What is REPL?
 // Question - What is prototypes in javascript?
 // Ans. javascript prototypes is a fundamental concept that enables inheritance is an prototype is a bluprint or a parent object to another object can inherit properties or methods.
 
@@ -10,25 +11,25 @@
 
 
 // 𝗡𝗼𝗱𝗲𝗝𝗦 𝗮𝗻𝗱 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
- // - What is event-driven architecture in NodeJS?
- // - How does NodeJS handle asynchronous operations?
- // - What are middleware functions in ExpressJS?
- // - How does authentication work in NodeJS? Explain JWT vs. OAuth.
- // - What are WebSockets, and when would you use them?
- // - What is the difference between monolithic and microservices architectures?
- // - How does NodeJS handle memory management?
+// - What is event-driven architecture in NodeJS?
+// - How does NodeJS handle asynchronous operations?
+// - What are middleware functions in ExpressJS?
+// - How does authentication work in NodeJS? Explain JWT vs. OAuth.
+// - What are WebSockets, and when would you use them?
+// - What is the difference between monolithic and microservices architectures?
+// - How does NodeJS handle memory management?
 
 // 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲𝘀 𝗮𝗻𝗱 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻
- // - What is the difference between SQL and NoSQL databases?
- // - How does indexing work in databases?
- // - What are ACID properties in a database?
- // - How would you scale an API to handle millions of requests per second?
- // - Design elevator system
- // - Design a parking lot
- // - What is caching, and how does it improve performance?
- // - Design a rate limiter
- // - Design a logging system
- // - Design a pastebin/ code sharing app
+// - What is the difference between SQL and NoSQL databases?
+// - How does indexing work in databases?
+// - What are ACID properties in a database?
+// - How would you scale an API to handle millions of requests per second?
+// - Design elevator system
+// - Design a parking lot
+// - What is caching, and how does it improve performance?
+// - Design a rate limiter
+// - Design a logging system
+// - Design a pastebin/ code sharing app
 
 // Question - What is Event bubling?
 // Ans. Event bubbling is a mechanism in JavaScript where an event triggered on a child element propagates upward through its parent elements in the DOM hierarchy. 
@@ -66,6 +67,10 @@
 //   details: { city: "rampur", age: 26 },
 // };
 // let shallowCopy = { ...obj };
+// shallowCopy.details.city = "sharma"
+// shallowCopy.name = "sharma ji"
+// console.log(shallowCopy.name)
+// console.log(obj.details.city)
 // shallowCopy.details.age = 40;
 // shallowCopy.details.city = "shyampur";
 // let deepCopy = JSON.parse(JSON.stringify(obj));
@@ -404,12 +409,38 @@
 // console.log(true == '1')
 
 // ====== 🚀 NEXT 🚀 =======
+// function add(a) {
+//     return function (b) {
+//         // If 'b' exists, we are still receiving numbers
+//         if (b !== undefined) {
+//             return add(a + b); // Recursive call with the new sum
+//         }
+//         // If 'b' is undefined (empty parens), return the total
+//         return a;
+//     };
+// }
+
+// // How to call it:
+// console.log(add(2)(3)(5)(8)()); // Output: 18
+
+let arr = [10, '1', 'c', 11, 5];
+// function seperate(val) {
+//     let num = [];
+//     let str = []
+//     for (let i = 0; i < val.length; i++) {
+//         if (val[i] === String(val[i])) {
+//             str.push(val[i])
+//         } else num.push(val[i])
+//     }
+//     console.log(num, str)
+// }
+// seperate(arr);
 
 // let a = 21;
 // let b = new Number(21);
 // let c = Number(21);
 // console.log(a === b);
-
+// 8218235529  // I'm kamal sharma. I bring over two year of experience in tech industry, spanning internship, consulting and self practices under the professionals. and my current role is full stack web developer at webespire pvt ltd. and I'm passionate about of web development and resolve the real industry problems
 // sum(2, 3);
 // sum((2)(3));
 // function sum(a, b) {
